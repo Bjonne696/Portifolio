@@ -14,7 +14,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 1.4vw;
-    margin:0px;
+    margin:0px
 
 
   }
@@ -22,7 +22,7 @@ h1 {
     font-family: ccsignlanguage, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 25px;
     margin:15px;
     color: #465e94;
     text-shadow: 1.5px 1.5px 1px #000000;
@@ -32,15 +32,15 @@ h1 {
     color:#465e94;
     text-shadow: 1.2px 1.2px 1px #8F59AE;
     text-decoration: none;
-    font-size:1.8vw;
+    font-size:15px;
   }
 
   p {
-    font-size: 1.2em;
-    margin: auto;
+    font-size: 15px;
+    margin: 20px;
     color: #8F59AE;
     text-shadow: 1.2px 1.2px 1px #000000;
-    font-size: 2.5vw;
+    
   }
 
 
@@ -87,11 +87,22 @@ footer {
 
 
 .front-container {
+    background: 
+    linear-gradient(
+    to top left,
+    #7C72A0,
+    #7C72A0 20%,
+    #4C3993 20%, 
+    #4C3993 40%,
+    #7C72A0 40%,
+    #7C72A0 60%,
+    #4C3993 60%,
+    #4C3993 80%,
+    #4C3993 80%);
+    
     text-align: center;
     width: 100%;
-    height: 100%;
-    background: repeating-conic-gradient(#af6793 0% 25%, #d9637d 25% 50%);
-    background-size: 100px 100px;
+    min-height:100vh;
     ;
 }
 
@@ -139,9 +150,12 @@ footer {
   
   /* Style the counter cards */
   .card {
+    max-width: 300px;
+    min-height: 550px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    margin: 15px;
   }
 
