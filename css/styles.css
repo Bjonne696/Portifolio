@@ -116,12 +116,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .about {
-    margin: 0px;
-  }
 
-  
-  
   /* Float four columns side by side */
   .column {
     float: left;
@@ -153,9 +148,9 @@ footer {
     max-width: 300px;
     min-height: 550px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 0px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.0) ;
     margin: 15px;
   }
 
